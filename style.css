@@ -37,6 +37,12 @@ nav>button{
   height: auto;
 }
 
+nav>div{
+  position: relative; 
+  top:20%; 
+  left:33%;
+}
+
 /* blocco principale */
 main div>h2{
   margin-top:20px;
@@ -71,21 +77,21 @@ main{
 
 /* colore barra arancione */
 .arancione{
-width: 25%;
-height: 3%;
-background-color: rgb(245,180,83);
+  width: 25%;
+  height: 3%;
+  background-color: rgb(245,180,83);
 }
 
 /* colore barra verde */
 .verde{
-width: 50%;
-height: 3%;
-background-color: rgb(30,195,30);
+  width: 50%;
+  height: 3%;
+  background-color: rgb(30,195,30);
 }
 
 /* colore barra rossa */
 .rossa{
-width: 15%;
-height: 3%;
-background-color: rgb(190,65,65);
+  width: 15%;
+  height: 3%;
+  background-color: rgb(190,65,65);
 }
