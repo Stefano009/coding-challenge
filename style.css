@@ -1,0 +1,91 @@
+/* background */
+body {
+ background-image: url("img/background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: sans-serif;
+}
+
+/* blocco trasparente */
+.see-thru{
+  padding-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 62%;
+  height: 70%;
+}
+
+/* blocco di testa */
+header h1{
+  color: lime;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* blocco di navigazione */
+nav{
+  margin: auto;
+  width: 80%;
+  height: 5%;
+  background-color: lime;
+}
+
+nav>button{
+  width: auto;
+  height: auto;
+}
+
+/* blocco principale */
+main div>h2{
+  margin-top:20px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+main{
+  color: rgba(255,255,255);
+  padding-left: 10%;
+}
+
+.gestione{
+  font-size: 130%
+}
+
+.blocco{
+  display: block;
+}
+
+.blocco:before{
+  content: "\21A6";
+  padding-right: 1px;
+}
+
+/* barra arrotondata */
+.barra{
+  border-radius: 5px;
+  align-content: left;
+  padding-top: 10px;
+}
+
+/* colore barra arancione */
+.arancione{
+width: 25%;
+height: 3%;
+background-color: rgb(245,180,83);
+}
+
+/* colore barra verde */
+.verde{
+width: 50%;
+height: 3%;
+background-color: rgb(30,195,30);
+}
+
+/* colore barra rossa */
+.rossa{
+width: 15%;
+height: 3%;
+background-color: rgb(190,65,65);
+}
